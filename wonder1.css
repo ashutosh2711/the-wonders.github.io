@@ -1,0 +1,61 @@
+.b1 {
+    background-color: #e5dfd5;
+    color:#333;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    margin-left:300px;
+    margin-right:300px;
+    border-style:solid;
+    border-width:4px;
+    border-color:black;
+    
+    
+}
+
+.images {
+    width:680px;
+   
+}
+/* Margin:0 auto divides the horizontal viewing area of the browser in centre i.e at equal diatance from right and left.*/
+
+h1 {
+    margin:0px auto;
+    padding:20px 20px 10px 20px;
+    font-size:34px;
+    color:#333;
+    font-weight:400;
+    text-align: center;
+
+}
+/*Padding:top right bottom left;*/
+
+.size {
+    margin:10px;
+    height:300px;
+    width:300px;
+    float:left;
+    border:4px;
+    border-style:solid;
+}
+.mask {
+    display:block;
+    margin:10px;
+    height:280px;
+    width:300px;
+    padding:10px;
+    float:left;
+    text-align:center; 
+    position:absolute;  
+}
+.wall .mask{
+    display:block;
+}
+
+.size:hover{
+    opacity: 0.6;
+}
+.size:hover .mask:hover{
+    display:block;
+    
+}
+
